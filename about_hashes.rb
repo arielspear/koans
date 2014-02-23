@@ -59,7 +59,7 @@ class AboutHashes < Neo::Koan
   end
 
   def test_hash_values
-    hash = { :one => "uno", :two => "dos" }
+    hash =
     assert_equal __, hash.values.size
     assert_equal __, hash.values.include?("uno")
     assert_equal __, hash.values.include?("dos")
